@@ -8,7 +8,6 @@ public class Start_Script : MonoBehaviour {
 	int cards;
 
 
-
 	// Use this for initialization
 	void Start ()
 	{
@@ -28,6 +27,8 @@ public class Start_Script : MonoBehaviour {
 			print (card.ToString ());
 		}*/
 
+
+
 	}
 
 
@@ -39,8 +40,10 @@ public class Start_Script : MonoBehaviour {
 	public void drawCard ()
 	{
 		cards = Random.Range(0, illuminati_Cards.Count);
-		print(illuminati_Cards[cards].ToString());
+		//print(illuminati_Cards[cards].ToString());
+
 		illuminati_Cards.RemoveAt(cards);
+		//playerOne.Illuminati = cards;
 	}
 }
 
