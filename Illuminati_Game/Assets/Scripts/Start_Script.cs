@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// Test script 
+/// </summary>
 public class Start_Script : MonoBehaviour {
 
 	List<Illuminati> illuminati_Cards = new List<Illuminati>();

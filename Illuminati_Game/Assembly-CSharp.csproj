@@ -46,11 +46,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Game_Script.cs" />
-     <Compile Include="Assets\Scripts\Illuminati.cs" />
+     <Compile Include="Assets\Scripts\Classes\Illuminati.cs" />
+     <Compile Include="Assets\Scripts\Classes\Player.cs" />
+     <Compile Include="Assets\Scripts\IlluminatiDeck.cs" />
      <Compile Include="Assets\Scripts\Menu_Script.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\SO Asset Scripts\CardAsset\CardAsset.cs" />
+     <Compile Include="Assets\Scripts\SO Asset Scripts\CardAsset\GroupAsset.cs" />
+     <Compile Include="Assets\Scripts\SO Asset Scripts\CharacterAsset\CharacterAsset.cs" />
      <Compile Include="Assets\Scripts\Start_Script.cs" />
+     <Compile Include="Assets\Scripts\UI\CardRotationScript.cs" />
+     <Compile Include="Assets\Scripts\UI\OneCardManager.cs" />
+     <Compile Include="Assets\Scripts\UI\PlayerArea.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
