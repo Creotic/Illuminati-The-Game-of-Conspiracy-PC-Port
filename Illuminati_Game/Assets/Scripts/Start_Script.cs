@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// Test script 
+/// </summary>
 public class Start_Script : MonoBehaviour {
 
 	List<Illuminati> illuminati_Cards = new List<Illuminati>();
 	int cards;
-
 
 
 	// Use this for initialization
@@ -28,6 +29,8 @@ public class Start_Script : MonoBehaviour {
 			print (card.ToString ());
 		}*/
 
+
+
 	}
 
 
@@ -39,8 +42,10 @@ public class Start_Script : MonoBehaviour {
 	public void drawCard ()
 	{
 		cards = Random.Range(0, illuminati_Cards.Count);
-		print(illuminati_Cards[cards].ToString());
+		//print(illuminati_Cards[cards].ToString());
+
 		illuminati_Cards.RemoveAt(cards);
+		//playerOne.Illuminati = cards;
 	}
 }
 
