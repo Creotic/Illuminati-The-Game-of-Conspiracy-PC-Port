@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.UI;
 
 // holds the refs Images on the card
 public class OneCardManager : MonoBehaviour {
+
+	List<CardAsset> illuminatiCards = new List<CardAsset>();
+
 
     public CardAsset cardAsset;
     public GroupAsset groupAsset;
@@ -16,11 +20,13 @@ public class OneCardManager : MonoBehaviour {
 
     void Awake()
     {
+
         if (cardAsset != null)
             ReadCardFromAsset();
         if (groupAsset != null)
         ReadGroupCardFromAsset();
     }
+
 
     private bool canBePlayedNow = false;
     public bool CanBePlayedNow
@@ -53,6 +59,7 @@ public class OneCardManager : MonoBehaviour {
         }
 
         // 5) Change the card graphic sprite
+        if(illuminatiCards[0])
         CardFace.sprite = cardAsset.CardImage;
       
 

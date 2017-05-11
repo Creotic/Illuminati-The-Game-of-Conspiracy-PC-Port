@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illuminati_Game", "Assembly-CSharp.csproj", "{0FC6108F-0121-A6AD-085A-6E133151EEB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illuminati_Game", "Assembly-CSharp-Editor.csproj", "{BB696CAD-E8D3-6233-8A5B-5B689769F891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FC6108F-0121-A6AD-085A-6E133151EEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC6108F-0121-A6AD-085A-6E133151EEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC6108F-0121-A6AD-085A-6E133151EEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC6108F-0121-A6AD-085A-6E133151EEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB696CAD-E8D3-6233-8A5B-5B689769F891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB696CAD-E8D3-6233-8A5B-5B689769F891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB696CAD-E8D3-6233-8A5B-5B689769F891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB696CAD-E8D3-6233-8A5B-5B689769F891}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
